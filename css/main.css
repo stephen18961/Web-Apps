@@ -1,0 +1,160 @@
+* {
+    font-family: Helvetica, sans-serif;
+  }
+
+  html {
+    zoom: 90%;
+  }
+
+  body {
+    background-color: black;
+  }
+  div#board {
+    position: relative;
+    width: 1024px;
+    height: 863px;
+    margin: auto;
+    background: url("../images/board.jpg") no-repeat;
+  }
+
+  div#messageArea {
+    position: absolute;
+    bottom: 0px;
+    left: 0px;
+    color: rgb(83, 175, 19);
+    font-size: 24px;
+  }
+
+  div#turnArea {
+    position: absolute;
+    left: -225px;
+    color: rgb(83, 175, 19);
+    font-size: 24px;
+  }
+
+  div#scoreArea {
+    position: absolute;
+    top: 150px;
+    left: -225px;
+    color: yellow;
+    font-size: 24px;
+  }
+
+  div#ammoArea {
+    position: absolute;
+    top: 150px;
+    right: 0px;
+    color: yellow;
+    font-size: 24px;
+  }
+
+  div#setArea {
+    position: absolute;
+    top: 300px;
+    left: -225px;
+    font-size: 24px;
+    color: white;
+  }
+
+  div#setWinnersArea {
+    position: absolute;
+    top: 420px;
+    left: -225px;
+    font-size: 24px;
+    color: white;
+  }
+
+  div#winnerBox {
+    display: none;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: azure;
+    font-size: 56px;
+    text-align: center;
+  }
+
+  div#winnerBox a {
+    text-decoration: none;
+    color: azure;
+  }
+
+  div#winnerBox a:hover {
+    color: yellow;
+  }
+
+  div#winnerBox button {
+    background: transparent;
+    color: azure;
+    font-size: 56px;
+    text-align: center;
+  }
+
+  div#winnerBox button:hover {
+    color: greenyellow;
+  }
+
+  .hit {
+    background: url("../images/ship.png") no-repeat center center;
+  }
+  .miss {
+    background: url("../images/miss.png") no-repeat center center;
+  }
+  table {
+    border-spacing: 0px;
+    /* could use border-collapse instead */
+    /* border-collapse: collapse; */
+    position: absolute;
+    left: 173px;
+    top: 98px;
+  }
+  td {
+    width: 94px;
+    height: 94px;
+  }
+  form {
+    position: absolute;
+    top: 0px;
+    right: 0px;
+    padding: 15px;
+    background-color: rgb(83, 175, 19);
+  }
+  form input {
+    background-color: rgb(152, 207, 113);
+    border-color: rgb(83, 175, 19);
+    font-size: 1em;
+  }
+
+  div.menu nav {
+    position: absolute;
+    top: 0px;
+    right: -200px;
+  }
+
+  div.menu nav {
+    background-color: rgb(152, 207, 113); /* set the background color of the navbar */
+    padding: 10px; /* add some padding to the navbar */
+  }
+  
+  div.menu ul {
+    list-style: none; /* remove the default bullet points */
+    margin: 0; /* remove any default margin */
+    padding: 0; /* remove any default padding */
+  }
+  
+  div.menu li {
+    display: block; /* display the list items horizontally */
+    margin: 20px 0;
+  }
+  
+  div.menu a {
+    color: #fff; /* set the text color of the links */
+    text-decoration: none; /* remove the underline from the links */
+    padding: 10px; /* add some padding to the links */
+  }
+  
+  div.menu a:hover {
+    background-color: #555; /* add a background color to the links on hover */
+  }
+  
